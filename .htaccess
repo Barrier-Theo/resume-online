@@ -1,0 +1,4 @@
+ErrorDocument 404 https://www.theobarrier.fr/
+RewriteEngine On
+RewriteCond %{SERVER_PORT} 80
+RewriteRule ^(.*)$ https://www.theobarrier.fr/$1 [R,L]
